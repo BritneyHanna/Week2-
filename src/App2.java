@@ -14,6 +14,7 @@ System.out.println("Question 1 What do each of the following Boolean expressions
 		System.out.println(5 >= 4 && 1 > 3);
 		System.out.println(10 < 4 || 1 > 4);
 		System.out.println(12 >= 2 && 1 < 24);
+		System.out.println("Hello".charAt(0) == 'h');
 		
 System.out.println("Question 2 In Eclipse, create the following Boolean variables and choose what values they hold: isHotOutside,isWeekday,hasMoneyInPocket\n");
 		
@@ -38,8 +39,8 @@ System.out.println("Question 4 Using the variables you created above and Boolean
 
 		
 		boolean shouldBuyIcecream = isHotOutside  && hasMoneyInPocket;
-		boolean willGoSwimming = isHotOutside && isWeekday ;
-		boolean isAGoodDay = isHotOutside && hasMoneyInPocket && isWeekday ;
+		boolean willGoSwimming = isHotOutside || !isWeekday;
+		boolean isAGoodDay = isHotOutside && hasMoneyInPocket || !isWeekday ;
 		boolean willBuyMilk =isHotOutside && thirstLevel >=3 && moneyInWallet >= 2*costOfMilk;
 		
 System.out.println("shouldBuyIcecream meets all the conditions and evaulates to "+ shouldBuyIcecream );		
