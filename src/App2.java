@@ -31,8 +31,8 @@ System.out.println("3 Create the following variables (not boolean type, choose t
 		double moneyInWallet = 100.00;
 		int thirstLevel = 4;
 		
-System.out.println("The cost of milk is " +costOfMilk);		
-System.out.println("The money in wallet is " + moneyInWallet);	
+System.out.printf("The cost of milk is %.2f \n" , costOfMilk);		
+System.out.printf("The money in wallet is %.2f \n " , moneyInWallet);
 System.out.println("The Thirst Level is "+ thirstLevel + "\n");
 System.out.println("Question 4 Using the variables you created above and Boolean operators, create variables for the following scenarios:shouldByIcecream,willGoSwimming,isAGoodDay,d.	willBuyMilk\n ");	
 	
